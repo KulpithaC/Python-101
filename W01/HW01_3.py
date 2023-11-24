@@ -1,10 +1,4 @@
-old = int(input("Old price: "))
+old = float(input("Old price: "))
+new = str(round(old / 100) - 1) + "98"
 
-remain = old % 100
-result = old - remain
-
-adjustments = {True: 98, False: -100 + 98}
-
-new = result + adjustments[(remain >= 50) & (old >= 100)] | (98 * (old < 100 and old > 0))
-
-print("New Price:", new)
+print("New Price:", int(new))

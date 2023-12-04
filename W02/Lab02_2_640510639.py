@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # Kulpitha Chaimongkol (Kawpoon)
 # 640510639
+# Rapeepat Treerattrakul (Peet)
+# 640510677
 # Lab02_2
 # 229223 Sec 002
 import math
